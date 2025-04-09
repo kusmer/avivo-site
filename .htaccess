@@ -1,0 +1,9 @@
+Satisfy Any
+Allow from all
+ExpiresActive On
+
+ErrorDocument 404 /404/
+
+RewriteEngine on
+
+RewriteRule ^$ /index.html
